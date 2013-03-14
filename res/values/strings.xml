@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PenPhoto</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_activity_pene_photo">PenePhotoActivity</string>
+    <string name="title_activity_register">Register</string>
+    <string name="menu_settings">Settings</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+	<string name="prefs_logout">Logout</string>
+    
+</resources>

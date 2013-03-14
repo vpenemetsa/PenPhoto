@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email" />
+    
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:inputType="textPassword"
+        android:hint="Password" />
+    
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:inputType="textPassword"
+        android:hint="Confirm Password" />
+    
+    <LinearLayout
+        android:id="@+id/register_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal" >
+        
+    	<Button
+	        android:id="@+id/register_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:text="Register"
+	        android:layout_marginLeft="24dp"
+	        android:layout_marginRight="24dp"
+	        style="?android:attr/buttonBarButtonStyle" />
+    	
+    	<Button
+	        android:id="@+id/cancel_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="48dp"
+	        android:text="Cancel"
+	        android:layout_marginLeft="24dp"
+	        android:layout_marginRight="24dp"
+	        style="?android:attr/buttonBarButtonStyle" />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>
