@@ -35,6 +35,20 @@ public class ContentFragment extends Fragment implements LoaderCallbacks<ArrayLi
 		
 		ArrayList<ContentObj> result = new ArrayList<ContentObj>();
 		ContentObj c1 = new ContentObj();
+		c1.setId("IMG_0011.mp4");
+		c1.setTitle("Piaashi video 1");
+		
+		ContentObj c2= new ContentObj();
+		c2.setId("IMG_0012.mp4");
+		c2.setTitle("Piaashi video 2");
+		
+		ContentObj c3 = new ContentObj();
+		c3.setId("IMG_0042.mp4");
+		c3.setTitle("Piaashi video 3");
+		
+		ContentObj c4 = new ContentObj();
+		c4.setId("IMG_0110.mp4");
+		c4.setTitle("Piaashi video 4");
 		
 		ContentObj c5 = new ContentObj();
 		c5.setId("video1.mp4");
@@ -45,7 +59,9 @@ public class ContentFragment extends Fragment implements LoaderCallbacks<ArrayLi
 		c6.setTitle("Sample 2");
 		
 		result.add(c1);
-		
+		result.add(c2);
+		result.add(c3);
+		result.add(c4);
 		result.add(c5);
 		result.add(c6);
 		
